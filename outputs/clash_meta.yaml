@@ -41,9 +41,9 @@ proxies:
   down: 55 Mbps
 - name: 🇫🇷 FR-HYSTERIA-4
   type: hysteria
-  server: 62.210.70.191
-  port: 23556
-  auth-str: github.com/Alvin9999-newpac/fanqiang
+  server: 163.172.117.163
+  port: 36699
+  auth-str: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -53,9 +53,9 @@ proxies:
   down: 55 Mbps
 - name: 🇫🇷 FR-HYSTERIA-5
   type: hysteria
-  server: 163.172.117.163
-  port: 36699
-  auth-str: dongtaiwang.com
+  server: 62.210.70.191
+  port: 23556
+  auth-str: github.com/Alvin9999-newpac/fanqiang
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -87,18 +87,6 @@ proxies:
   - h3
 - name: 🌐 UNK-HYSTERIA-8
   type: hysteria
-  server: fan.193919.xyz
-  port: 22001
-  password: github.com/Alvin9999-newpac/fanqiang
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  sni: fan.193919.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: 11
-  down: 55
-- name: 🌐 UNK-HYSTERIA-9
-  type: hysteria
   server: 142.249.37.83
   port: 22222
   password: dongtaiwang.com
@@ -109,17 +97,29 @@ proxies:
   - h3
   up: 11
   down: 55
+- name: 🌐 UNK-HYSTERIA-9
+  type: hysteria
+  server: fan.193919.xyz
+  port: 22001
+  password: github.com/Alvin9999-newpac/fanqiang
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  sni: fan.193919.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: 11
+  down: 55
 - name: 🌐 UNK-NAIVE-10
   type: http
-  server: fan.193919.xyz
-  port: 23001
+  server: hk.336892.xyz
+  port: 33550
   username: dongtaiwang.com
   password: dongtaiwang.com
   tls: true
 - name: 🌐 UNK-NAIVE-11
   type: http
-  server: hk.336892.xyz
-  port: 33550
+  server: fan.193919.xyz
+  port: 23001
   username: dongtaiwang.com
   password: dongtaiwang.com
   tls: true
