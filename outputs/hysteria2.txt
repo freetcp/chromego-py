@@ -4,86 +4,7 @@
 # 由 merge_sources.py 自动生成
 # =======================
 
-{
-  "server": "[2001:bc8:32d7:17b::3]:22000",
-  "auth": "dongtaiwang.com",
-  "bandwidth": {
-    "up": "11 mbps",
-    "down": "55 mbps"
-  },
-  "tls": {
-    "sni": "www.microsoft.com",
-    "insecure": true
-  },
-  "quic": {
-    "initStreamReceiveWindow": 16777216,
-    "maxStreamReceiveWindow": 16777216,
-    "initConnReceiveWindow": 33554432,
-    "maxConnReceiveWindow": 33554432
-  },
-  "socks5": {
-    "listen": "127.0.0.1:1080"
-  },
-  "transport": {
-    "udp": {
-      "hopInterval": "30s"
-    }
-  }
-}
-
-{
-  "server": "[2001:bc8:32d7:17b::3]:22000",
-  "auth": "dongtaiwang.com",
-  "bandwidth": {
-    "up": "11 mbps",
-    "down": "55 mbps"
-  },
-  "tls": {
-    "sni": "www.microsoft.com",
-    "insecure": true
-  },
-  "quic": {
-    "initStreamReceiveWindow": 16777216,
-    "maxStreamReceiveWindow": 16777216,
-    "initConnReceiveWindow": 33554432,
-    "maxConnReceiveWindow": 33554432
-  },
-  "socks5": {
-    "listen": "127.0.0.1:1080"
-  },
-  "transport": {
-    "udp": {
-      "hopInterval": "30s"
-    }
-  }
-}
-
-{
-  "server": "[2001:bc8:32d7:17b::3]:22000",
-  "auth": "dongtaiwang.com",
-  "bandwidth": {
-    "up": "11 mbps",
-    "down": "55 mbps"
-  },
-  "tls": {
-    "sni": "www.microsoft.com",
-    "insecure": true
-  },
-  "quic": {
-    "initStreamReceiveWindow": 16777216,
-    "maxStreamReceiveWindow": 16777216,
-    "initConnReceiveWindow": 33554432,
-    "maxConnReceiveWindow": 33554432
-  },
-  "socks5": {
-    "listen": "127.0.0.1:1080"
-  },
-  "transport": {
-    "udp": {
-      "hopInterval": "30s"
-    }
-  }
-}
+# 【错误】无法访问 https://www.gitlabip.xyz/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/hysteria2/2/config.json：HTTP Error 500: Internal Server Error
 
 
 {
@@ -113,6 +34,32 @@
   }
 }
 
+{
+  "server": "[2001:bc8:32d7:17b::3]:22000",
+  "auth": "dongtaiwang.com",
+  "bandwidth": {
+    "up": "11 mbps",
+    "down": "55 mbps"
+  },
+  "tls": {
+    "sni": "www.microsoft.com",
+    "insecure": true
+  },
+  "quic": {
+    "initStreamReceiveWindow": 16777216,
+    "maxStreamReceiveWindow": 16777216,
+    "initConnReceiveWindow": 33554432,
+    "maxConnReceiveWindow": 33554432
+  },
+  "socks5": {
+    "listen": "127.0.0.1:1080"
+  },
+  "transport": {
+    "udp": {
+      "hopInterval": "30s"
+    }
+  }
+}
 
 
 {
@@ -141,6 +88,11 @@
     }
   }
 }
+
+
+
+# 【错误】无法访问 https://www.gitlabip.xyz/Alvin9999/PAC/refs/heads/master/backup/img/1/2/ipp/hysteria2/1/config.json：HTTP Error 500: Internal Server Error
+
 
 {
   "server": "[2001:bc8:32d7:17b::3]:22000",
