@@ -1,7 +1,7 @@
 proxies:
 - name: 🇫🇷 FR-VLESS-1
   type: vless
-  server: 62.210.70.194
+  server: 2001:bc8:32d7:302::14
   port: 37783
   uuid: a289c660-1b12-432b-a06c-c2ae469272b0
   flow: ''
@@ -15,7 +15,7 @@ proxies:
     short-id: 21569dd6
 - name: 🇫🇷 FR-VLESS-2
   type: vless
-  server: 2001:bc8:32d7:302::14
+  server: 62.210.70.194
   port: 37783
   uuid: a289c660-1b12-432b-a06c-c2ae469272b0
   flow: ''
